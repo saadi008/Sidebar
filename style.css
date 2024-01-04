@@ -1,0 +1,118 @@
+body {
+    background-color: #e3f2fd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* style for my h1 heading */
+h1 {
+    font-size: 70px;
+    padding-top: 10px;
+    padding-left: 50px;
+    color: #4070f4;
+}
+
+.blue {
+    color: #000;
+}
+
+/* style for line bar onleft side of h1 */
+.line {
+    background-color: #4070f4;
+    width: 12px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 200px;
+    padding-bottom: 55px;
+    border-radius: 10px;
+}
+
+/* style for div box 1 */
+.box-one {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    padding-bottom: 240px;
+}
+
+
+/* style for box 2 */
+.box-two {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    transform: translate(50%, -50%);
+    padding-bottom: 240px;
+}
+
+/* style for p codinglab i box 1 and 2 */
+p {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 45px;
+    display: inline-block;
+}
+
+p>img {
+    vertical-align: middle;
+}
+
+/* style for class bar for bar icon */
+.bar {
+    margin-right: 20px;
+    width: 25px;
+    display: inline-block;
+}
+
+.start:hover {
+    background-color: #334a72;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 19px;
+}
+
+/* style for ul in box 1 and 2 */
+
+ul {
+    margin: 2px;
+    color: #707070;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+}
+
+ul>img {
+    width: 35px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 12px;
+    margin-right: 25px;
+}
+
+ul:hover {
+    background-color: #4070f4;
+    color: #ffffff;
+    width: 75%;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding-top: 5px;
+    cursor: pointer;
+    user-select: auto;
+}
+
+.last-icon:hover {
+    background-color: #334a72;
+    color: #ffffff;
+}
